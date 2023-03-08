@@ -1,6 +1,48 @@
-
 fun main() {
-    println("Hello, world!!!")
-    println("oiiiii")
+    println("oiii")//exibir mensagens no console
+    
+    //comentário de uma lnha
+    
+    /*
+     * 
+     * ele
+     * é
+     * um
+     * comentário
+     * de
+     * mais
+     * de
+     * uma
+     * linha 
+     * 
+     */
+     
+     //variaveis - elas armazenam valores
+     
+     //variáveis mutaveis - seu valor pode ser mudado................var
+     //variáveis não mutaveis - seu valor não pode ser alterado......val
+     //
+     //tipos de variáveis
+     //
+     //Boolean -verdadeiro ou falso
+     //String - caracteres no geral ... entre aspas duplas - sem limite de caracters
+     //- sem limites de caracteristicas ex.: "João geromel cedeira 's"
+     //
+     //Char - apenas 1 digito de caracterie ...dentro das aspas simples
+     //int - números interos ex: 100
+     //double - números decimais, com o limite de até 7 digitos após a vírgula
+     //arredondam o número
+     //
+     //float - número decimais, com um limite de até 14 digitos após a vírgula - arredonda o número
+     //
+     //long - números longos com muitos digitos inteiros, ou decimal ex.: 800000000000000000
+     //
+     //estrutura de uma variavel:
+     //
+     //var nome = valor
+     //      ou
+     //var nome= tipo
+     //
+    var professor ="Rodinei"   
+    var professorr: string
 }
-//------------------------------

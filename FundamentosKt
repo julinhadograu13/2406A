@@ -46,3 +46,45 @@ fun main() {
     var professor ="Rodinei"   
     var professorr: string
 }
+//-----------------------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    //Operadores matemáticos 
+    // + -> adição
+    // - -> subitração 
+    // / -> divisão
+    // *-> multiplicação
+    // % -> módulo - resto da divisão
+    
+ //var halls = 7
+// var freegells = 6
+    
+  //println(halls -freegells)
+    
+    // EXERCICÍOS - Faça uma calculadora que conteinha cada em dos operadores matemático 
+    // como resultado do cálculo de duas variáve ( contendo resultados para +, -, /, *, e %), contendo também 
+    // uma interface simples e bem bonita :)
+    // 
+    // 
+    // 
+    // 
+    //  
+    //  
+    
+    println("--------------minha calculadora--------------")
+    
+    println("cachorro= 3 gato= 8")
+  var cachorro = 3
+  var gato = 8   
+    println("")
+    
+    println("${(cachorro + gato)}  -adição")
+    println("${(cachorro - gato)}  -subtração") 
+    println("${(cachorro / gato)}  -divisão")
+    println("${cachorro * gato)}   -multiplicação")
+    printkn("${cachorro % gato)}   -módolo"l
+     
+    println()
+   
+}

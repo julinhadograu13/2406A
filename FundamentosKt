@@ -202,3 +202,177 @@ fun main() {
     
     
 }
+------------------------------------------------
+
+fun main() {
+    
+    //Operadores matemáticos 
+    // + -> adição
+    // - -> subitração 
+    // / -> divisão
+    // *-> multiplicação
+    // % -> módulo - resto da divisão
+    
+ //var halls = 7
+// var freegells = 6
+    
+  //println(halls -freegells)
+    
+    // EXERCICÍOS - Faça uma calculadora que conteinha cada em dos operadores matemático 
+    // como resultado do cálculo de duas variáve ( contendo resultados para +, -, /, *, e %), contendo também 
+    // uma interface simples e bem bonita :)
+    // 
+    // 
+    // 
+    // 
+    //  
+    //  
+    /*
+    println("--------------minha calculadora--------------")
+    
+    println("cachorro= 3 gato= 8")
+  var cachorro = 3
+  var gato = 8   
+    println("")
+    
+    println("${(cachorro + gato)}  -adição")
+    println("${(cachorro - gato)}  -subtração") 
+    println("${(cachorro / gato)}  -divisão")
+    println("${(cachorro * gato)}   -multiplicação")
+    println("${(cachorro % gato)}   -módulo") 
+    
+    
+    println("---------------------------")
+    */
+
+    // Operadores relacionais 
+    // 
+    // == -> igaul a...
+    // != -> diferente de...
+    // !  -> negando valor 
+    // >  -> maior que...
+    // <  -> menor que...
+    // >= -> maior ou igual a...
+    // <= -> menor ou igaul a...
+    // 
+    // ++ -> adiciona 1 ao valor 
+    // -- -> subtrai 1 do valor
+    // += -> adiciona um valor a um determinado valor 
+    // -= -> subtrai um valor de um determinado valor 
+     
+    /*
+    
+    
+ var  claudetty = 50 
+ var  josias =  30
+ var  berennice = 40
+ var bernnadetthy = 80
+   
+    
+    println(claudetty)
+    claudetty++ 
+    println(claudetty)
+    println(josias)
+    josias-- 
+    println(josias)
+    println(berennice)
+    berennice += 20 
+    println(berennice)
+    berennice += claudetty
+    println(berennice)
+    println("")
+    
+    */
+    
+    // Condições if..else
+    
+    // se... senão
+    // 
+    // estrutura:
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    
+    /*
+    var interruptor = true
+    
+    if(interruptor == true){
+      println("luz acesa :) ")
+   }else{
+        println("luz apagada :(") 
+        
+    }
+    */
+    /*
+  var fome = true
+    
+ if(fome){
+    println("Alimente-se")
+ }else{
+    println("Alimentou-se")
+}
+*/ 
+  
+var senha = "666777"
+    
+if(senha== "666777"){
+    println("bem-vindo sehor Stak")
+}else{
+    println("Senha icorreta, tente novamente")
+   
+}
+   
+ // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS
+ 
+ // if..else composto
+ // como o if..else composto,somos permitidos,comparar mais de duas condições (o simples
+ // e o else),através do 'else if'
+ // 
+    /*
+var coracoes = 5
+if(coracoes >= 5){
+    println("você está muito saudavel! parabéns")
+}else if(coracoes == 4){
+    println("você tá de boa")
+}else if(coracoes == 3){
+    println("cuidado com a sua saúde")
+}else if(coracoes == 2){
+    println("vá ao médico !!!!!!")
+}else if(coracoes == 1){
+    println("seu estado é critico!!!!!!")
+}else{
+    println("novo reforço do vasco")
+}
+*/
+
+//1 -
+// 
+// 
+var contas
+var salario = 3000
+if(salario = 400 > contas){
+    println("salario é maior que as contas, parabéns")
+}else{
+    println("as contas estão maior que o alugel")
+}
+ 
+//2 -
+
+
+var fatiasdepizza = 8
+if(fatiasdepizza > 8)
+    println("bora comer,a pzza acabou de chegar")
+}else if{(fatiasdepizza == 6){
+    println("ainda estou com fome, vou comer")
+}else if{(fatiasdepizza == 4){  
+    println("já comi batante, mais ainda aguento mais")
+}else if{(fatiasdepizza == 1){
+    println("estou triste por te comido de mais")
+}else{
+    println("a pizza acabou")
+}
+    
+    
+}

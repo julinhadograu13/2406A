@@ -376,3 +376,193 @@ if(fatiasdepizza > 8)
     
     
 }
+-----------------------------------------------------
+
+fun main() {
+    
+    //Operadores matemáticos 
+    // + -> adição
+    // - -> subitração 
+    // / -> divisão
+    // *-> multiplicação
+    // % -> módulo - resto da divisão
+    
+ //var halls = 7
+// var freegells = 6
+    
+  //println(halls -freegells)
+    
+    // EXERCICÍOS - Faça uma calculadora que conteinha cada em dos operadores matemático 
+    // como resultado do cálculo de duas variáve ( contendo resultados para +, -, /, *, e %), contendo também 
+    // uma interface simples e bem bonita :)
+    // 
+    // 
+    // 
+    // 
+    //  
+    //  
+    /*
+    println("--------------minha calculadora--------------")
+    
+    println("cachorro= 3 gato= 8")
+  var cachorro = 3
+  var gato = 8   
+    println("")
+    
+    println("${(cachorro + gato)}  -adição")
+    println("${(cachorro - gato)}  -subtração") 
+    println("${(cachorro / gato)}  -divisão")
+    println("${(cachorro * gato)}   -multiplicação")
+    println("${(cachorro % gato)}   -módulo") 
+    
+    
+    println("---------------------------")
+    */
+
+    // Operadores relacionais 
+    // 
+    // == -> igaul a...
+    // != -> diferente de...
+    // !  -> negando valor 
+    // >  -> maior que...
+    // <  -> menor que...
+    // >= -> maior ou igual a...
+    // <= -> menor ou igaul a...
+    // 
+    // ++ -> adiciona 1 ao valor 
+    // -- -> subtrai 1 do valor
+    // += -> adiciona um valor a um determinado valor 
+    // -= -> subtrai um valor de um determinado valor 
+     
+    /*
+    
+    
+ var  claudetty = 50 
+ var  josias =  30
+ var  berennice = 40
+ var bernnadetthy = 80
+   
+    
+    println(claudetty)
+    claudetty++ 
+    println(claudetty)
+    println(josias)
+    josias-- 
+    println(josias)
+    println(berennice)
+    berennice += 20 
+    println(berennice)
+    berennice += claudetty
+    println(berennice)
+    println("")
+    
+    */
+    
+    // Condições if..else
+    
+    // se... senão
+    // 
+    // estrutura:
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    
+    /*
+    var interruptor = true
+    
+    if(interruptor == true){
+      println("luz acesa :) ")
+   }else{
+        println("luz apagada :(") 
+        
+    }
+    */
+    /*
+  var fome = true
+    
+ if(fome){
+    println("Alimente-se")
+ }else{
+    println("Alimentou-se")
+}
+*/ 
+ 
+    /*
+var senha = "666777"
+    
+if(senha== "666777"){
+    println("bem-vindo sehor Stak")
+}else{
+    println("Senha icorreta, tente novamente")
+}
+   
+ // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS
+ 
+ // if..else composto
+ // como o if..else composto,somos permitidos,comparar mais de duas condições (o simples
+ // e o else),através do 'else if'
+ // 
+    
+var coracoes = 5
+if(coracoes >= 5){ 
+    prinyln("voc")
+    
+}
+
+*/
+
+//
+//
+//
+//
+var coracoes = 1
+ var vidas = 3
+    
+    if(coracoes == 0 && vidas <=0){
+        println("gamer over!")
+    }else{
+        println(" o jogo continua")
+        
+        
+ // when - quando
+ // comparação de quando um valor for igual a um determinado valor,uma determinada ação sará executada   
+ // 
+ // Estrutura do When
+ // 
+ // var auxiliar = valor
+ // 
+ // when(auxiliar){
+ // 
+ // valor -> {ação}
+ // valor -> {ação}
+ // valor -> {ação}
+ // valor -> {ação} 
+ // else -> {açâO}
+ // }
+ // 
+ // será usado geralmente quando durante a programa o valor da variavel nâO for estático, ou seja, ele estiver mudando
+ // 
+ var mes = 5 
+ when(mes){
+     1 -> {println("Lisboa")}
+     2 -> {println("Nova Youk")}
+     3 -> {println("Rio de Janeiro")}
+     4 -> {println("São Paulo")}
+     5 -> {println("keylandia")}
+     6 -> {println("Miwaukee")}
+     7 -> {println("Barcelona")}
+     8 -> {println("Springfield")}
+     9 -> {println("Los Pollos Hermanos")}
+     10 -> {println("Elmore")}
+     11 -> {println("Toronto")}
+     12 -> {println("Seoul")}
+     else -> {println("Acordou")}
+     
+       
+}
+    
+    
+    
+}

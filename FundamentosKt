@@ -769,4 +769,70 @@ when(mes){
     
     
     
+
+--------------------------------------------------
+fun main() {
+ /*
+     
+   // for - para..package
+   // 
+   // PARA cada item em um intervalo ou colection, uma determinada ação será executada 
+   // Estrutura: 
+   // 
+   // for (vAuxiliar in intervalo ou colection){   
+   // ação
+   // }
+   // 
+  
+     
+     for(pneu in 1..4){   
+       println("1 pneu")
+     
+     }      
+     
+     //Exercícios -> Faça uma tabuada até o décimo multiplo de um número escolhido,
+     //utilizando o Laço for  
+     //em exssão as tabuadas do 0, 1, e 2  
+//
+//
+//
+
+for(calc in 0..10){
+     println(7 * calc)
+     }
+    
+*/
+    
+    
+ //
+ //colletions
+ //
+ //intervalos, listas, arrays, vetores etc
+ //
+ //
+ 
+ //tipos de listas
+ //
+ var list1 = listOf("tartaruga", 0, 0.1, true)
+ 
+ //propriedades das collections
+ println(list) // exibir a lista 
+ println(list1.size) // retorna o tamanho da lista
+ println(list1.lastIndex) // retornsr o ultimo index
+ println(list1[2]) //exibir de um determinado index
+ println(list1.conteins("tartaruga")) // compara se existeum determinado valor dentro da listapri
+ println(list1.indexOf(0)) //indicar o index de um determinado valor
+ println(list1.first()) //o valor dop primeiro index
+ println(list1.last()) //o valor do último index
+ println(list1.inEmpty()) //compara se a lista está vazia
+ 
+ //<tags>
+var list2 = listO<String>("LeBrin James," "Staphen Curry", "Michael Jordan", "Perna Longa", "Klay Thompson")
+// lista acima especifica o tipo de dados que vai ser guardado
+// 
+// obs.listOf() -> imutavel
+// proxima aula...
+ 
+
+    
 }

@@ -836,3 +836,67 @@ var list2 = listO<String>("LeBrin James," "Staphen Curry", "Michael Jordan", "Pe
 
     
 }
+------------------------------------------
+
+// mutablelistOf() --> armazena qualque tipo de valores conjunto
+// mutablelistof<tipoDeValor -> armazenar valores especificos de seu tipo
+// 
+var comida = mutableListOf<String>("strogonoff", "patê de frango", "lasagna", "feijoada")
+
+// propriedades
+// 
+comida.add("macarrão")//adiciona um valor a lista
+ println(comida)
+ comida.add(4,"cuscuz")
+ println(comida) // adiciona um valor a um index em especifico na lista
+ comida.remove("patê de frango")  //remove um valor em expecifico da lista
+ println(comida)
+ comida.removeAt(0) //rwemove um valor de um index em especifico
+ println(comida)
+ comida.set(2, "pastel de carne seca") // substitui um valor pelo seu index
+ println(comida)
+ comida.clear() // remove todos os valores da lista
+ println(comida)
+ 
+ //exercívios
+ //
+ 
+ var aluno =  mutableListOf<String>("Maria", "Ana", "Eduarda", "matheus", "pedro")
+  
+aluno.add("carlos")
+println("janeiro")
+println(aluno)
+
+
+aluno.add("pablo")
+println("fevereiro")
+println(aluno)
+
+  
+aluno.add("julia")
+println("março")
+println(aluno)
+
+  
+aluno.add("joão")
+println("janeiro")
+println(aluno)
+
+  
+aluno.add("vitor")
+println("abril")
+println(aluno)
+
+  
+aluno.add("carlos")
+println("janeiro")
+println(aluno)
+
+
+
+
+    
+}
+    
+    
+    

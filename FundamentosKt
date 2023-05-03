@@ -900,3 +900,19 @@ println(aluno)
     
     
     
+------------------------------------------
+//POO
+  //
+  //  Programação Orientada a Objetos
+  //  
+  //  Objetivo: Simular atividade e situação do mundo real
+  //    
+  //  Objeto - elementos que podem interagir com um sistema   ex.:pé
+  //  Classe - determinação de um objeto  ex.:membros do corpo 
+  //  Atributos - caracteristicas, propriedades, parâmetros  ex.:tamanho
+  //  metodos - atividades, ações, que o obj pode realizar  ex.:chutar
+  //                  
+  //  Herança - Atributos de um obj que são HERDADOS de uma classe
+  //  
+  //  
+  

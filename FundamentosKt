@@ -915,4 +915,29 @@ println(aluno)
   //  Herança - Atributos de um obj que são HERDADOS de uma classe
   //  
   //  
+  ---------------------------------------
   
+  fun main() {
+  
+ var pessoa1 = Pessoa() // instanciamos um objeto 
+
+ println(pessoa1.idioma) //Exibir um atributo de um objeto
+ println(pessoa1.nome)
+ pessoa1.nome = "Julia" //alterar m valor de um atributo de um objeto
+ println(pessoa1.nome + " , "+pessoa1.idade)
+ 
+}
+  
+
+class Pessoa {
+    
+  var nome = "Julia"  
+  var idade = 16
+  var nacionalidade = "Brasileira"
+  var idioma= "Português"
+  var profisso = "Desempregada" 
+  
+    
+                                           
+   
+}

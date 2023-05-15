@@ -1030,3 +1030,198 @@ class Pessoa {
     
     
 }
+----------------------------------
+Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.10
+JVM
+Program arguments
+Copy link
+Share code
+Run
+Acre
+fun main() {
+    
+    //Operadores matemáticos 
+    // + -> adição
+    // - -> subitração 
+    // / -> divisão
+    // *-> multiplicação
+    // % -> módulo - resto da divisão
+    
+ //var halls = 7
+// var freegells = 6
+    
+  //println(halls -freegells)
+    
+    // EXERCICÍOS - Faça uma calculadora que conteinha cada em dos operadores matemático 
+    // como resultado do cálculo de duas variáve ( contendo resultados para +, -, /, *, e %), contendo também 
+    // uma interface simples e bem bonita :)
+    // 
+    // 
+    // 
+    // 
+    //  
+    //  
+    /*
+    println("--------------minha calculadora--------------")
+    
+    println("cachorro= 3 gato= 8")
+  var cachorro = 3
+  var gato = 8   
+    println("")
+    
+    println("${(cachorro + gato)}  -adição")
+    println("${(cachorro - gato)}  -subtração") 
+    println("${(cachorro / gato)}  -divisão")
+    println("${(cachorro * gato)}   -multiplicação")
+    println("${(cachorro % gato)}   -módulo") 
+    
+    
+    println("---------------------------")
+    */
+​
+    // Operadores relacionais 
+    // 
+    // == -> igaul a...
+    // != -> diferente de...
+    // !  -> negando valor 
+    // >  -> maior que...
+    // <  -> menor que...
+    // >= -> maior ou igual a...
+    // <= -> menor ou igaul a...
+    // 
+    // ++ -> adiciona 1 ao valor 
+    // -- -> subtrai 1 do valor
+    // += -> adiciona um valor a um determinado valor 
+    // -= -> subtrai um valor de um determinado valor 
+     
+    /*
+    
+    
+ var  claudetty = 50 
+ var  josias =  30
+ var  berennice = 40
+ var bernnadetthy = 80
+   
+    
+    println(claudetty)
+    claudetty++ 
+    println(claudetty)
+    println(josias)
+    josias-- 
+    println(josias)
+    println(berennice)
+    berennice += 20 
+    println(berennice)
+    berennice += claudetty
+    println(berennice)
+    println("")
+    
+    */
+    
+    // Condições if..else
+    
+    // se... senão
+    // 
+    // estrutura:
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    
+    /*
+    var interruptor = true
+    
+    if(interruptor == true){
+      println("luz acesa :) ")
+   }else{
+        println("luz apagada :(") 
+        
+    }
+    */
+    /*
+  var fome = true
+    
+ if(fome){
+    println("Alimente-se")
+ }else{
+    println("Alimentou-se")
+}
+*/ 
+    
+var senha = "666777"
+    
+if(senha== "666777"){
+    println("bem-vindo sehor Stak")
+}else{
+    println("Senha icorreta, tente novamente")
+}
+   
+ // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS
+ 
+ // if..else composto
+ // como o if..else composto,somos permitidos,comparar mais de duas condições (o simples
+ // e o else),através do 'else if'
+ // 
+    
+var coracoes = 5
+if(coracoes >= 5){ 
+    println("voc")
+    
+    //métodos - Atividade, ação, que o obj podde realizar   Ex:Chutar
+    
+​
+    var animalzin  =Animal("cachorro", "shih-tzu", 8, "chinelo", "pqno")
+​
+    animalzin.comer(animalzin.dieta)
+    
+    var animalzao = Animal("Golfinho", "Boto", 50, "Sardinha", "pqno")
+    
+    animalzao.correr(120.0, "Acre")
+    
+    
+    
+   
+}
+​
+class Pessoa {  
+    //Atributos que toda pessoa pode ter 
+    var nome = "julia"
+    var idade = 16
+    var nacionalidade = "Brasileira"
+    var idioma = "Português" //Valor Inicial
+    var profissao = "Desempregada"
+    
+ 
+    
+}
+    
+    
+    
+}
+   
+     class Animal(var especie: String, //atributos que todo animalzin deve ter
+              var raca: String,
+              var idade: Int,
+              var dieta: String,
+              var porte: String){   
+    
+    //estrutura de um método:
+    //fun (nomeDoParametro: tipodeparametro){
+    //ação
+    //}
+​
+     fun comer(alimento: String){ 
+         println("$especie comendo $alimento, yumm")
+                
+}
+     fun correr(velocidade: Double, lugar: String){
+         println("$especie correndo em uma velocidade de $velocidade km/h no $lugar")
+         
+     }
